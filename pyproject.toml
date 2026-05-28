@@ -1,0 +1,9 @@
+[project]
+name = "pr-function-commenter"
+version = "0.1.0"
+description = "GitHub PR automation that adds LLM-generated function comments with comment-only validation."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
